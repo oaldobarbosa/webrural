@@ -1,0 +1,261 @@
+
+/**/
+*{ margin: 0; padding: 0; }
+
+
+
+/*     header   */
+
+
+
+
+/* row */
+.row{	
+	margin: 0;
+}
+
+.container{
+	padding: 50px 0;
+}
+
+
+/*barra de navegação*/
+header, .navbar{
+	background-color: rgba(0, 0, 0, 0.364);
+}
+
+#nav-container{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#logo{
+	width: 120px;
+	margin-left: 20px;
+}
+
+.navbar-brand{
+	padding: 0;
+	color: white;
+}
+
+.navbar-brand-hover{
+	color: white;
+}
+#navbar-links a{
+	color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding: 1rem .8rem;
+}
+
+/* carousel Slider */
+#container-fluid{
+	padding:0;
+}
+
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+	height: 100vh;
+}
+
+#mainSlider .carousel-caption{
+	
+	top: 30%;
+}
+
+#mainSlider .carousel-caption p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	color: yellow;
+}
+
+#mainSlider .carousel-caption h2{
+	
+	font-family: 'Oswald', sans-serif;
+	font-size: 80px;
+	color: white;
+}
+
+.carousel-indicators .active{
+	background-color: #027A00;
+}
+
+/* INFO ONE AREA INDEX */
+.info-one-area{
+	background-color: #F6F6F5;
+}
+
+.info-one-img{
+	width: 450px;
+	border-radius: 10px;
+}
+
+.info-one-title{
+	font-family: 'Oswald', sans-serif;
+	font-size: 70px;
+}
+.info-one-text{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+
+}
+
+/*   NOSSOS SERVIÇOS INDEX */
+.nossos-servicos-index{
+	background-color: white;
+	text-align: center;
+}
+
+
+.nossos-servicos-title{
+	font-family: 'Oswald', sans-serif;
+	font-size: 70px;
+	color: #FFCD00;
+}
+
+/*  service one index */
+.servico-one-index{
+	background-color: #F6F6F5;
+}
+.service-one-title{
+	font-family: 'Oswald', sans-serif;
+	font-size: 38px;
+	color: #141540;
+	margin-bottom: 25px;
+}
+.service-one-text{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #141540;
+	margin-bottom: 25px;
+
+}
+
+#btn-service-one{
+	background-color: #141540;
+	color: white;
+	font-size: 20px;
+
+}
+
+/*servico two index */
+
+.servico-two-index{
+	background-color: white;
+
+}	
+.service-two-title{
+	font-family: 'Oswald', sans-serif;
+	font-size: 38px;
+	color: #FFCD00;
+	margin-bottom: 25px;
+}
+.service-two-text{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #141540;
+	margin-bottom: 25px;
+}
+#btn-service-two{
+	position: absolute;
+	right: 0;
+	background-color: #FFCD00;
+	color: white;
+	font-size: 20px;
+}
+
+
+
+/* nossos valores index */
+.nossos-valores-index{
+	background-color: #F6F6F5;
+	text-align: center;
+
+}
+
+/*  nossos valores area */
+.nossos-valores-area{
+	background-color: white;
+
+}
+.nossos-valores-text{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+/* fale conosco  orcamento */
+
+.fale-conosco-orcamento{
+	background-color: #027A00;
+	margin: 0px;
+}
+
+
+.fale-conosco-orcamento i{
+	color: white;
+	font-size: 110px;
+	float: left;
+	padding-right: 10px;
+}
+
+.fale-conosco-orcamento h3{
+	margin-top: 5px;
+	color: white;
+	font-size: 55px;
+	font-family: 'Oswald', sans-serif;
+}
+.fale-conosco-orcamento p{
+	font-size: 20px;
+	color: white;
+}
+
+
+/* ************************************************************** */
+#container-title{
+	padding-top: 70px;
+	padding-bottom: 25px;
+}
+
+#container-camp{
+	padding: 0;
+}
+
+/*   quem somos page */
+
+.quem-somos-index{
+	background-color: #027A00;
+	color: white;
+	text-align: center;
+}
+.quem-somos-title{
+	padding-top: 25px;
+	padding-bottom: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+
+}
+
+/* ************************************************************** */
+
+
+/*   footer */
+
+.footer{
+	background-color: black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.logo_footer{
+	width: 140px;
+	margin-bottom: 5px;
+}
+
+.desenvolvedor{
+	font-size: 15px;
+	margin-top: -5px;
+}
