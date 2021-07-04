@@ -30,15 +30,15 @@
 
             <!-- info one area-->
             <div class="info-one-area">
-                <div class="container" id="container-camp">
+                <div class="container col-md-12" id="container-camp">
                 <div class="row">
                     
-                    <div class="col-md-6">
-                        <img src="../img/empresas-01.png" alt="Imagem" class="info-one-img img-fluid">
+                    <div class="col-md-6" id="col-quem-somos">
+                        <img src="../img/empresas-01.png" alt="Imagem" class="img-fluid" id="img-quem-somos"   >
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="col-quem-somos">
                         <h3 class="info-one-title">
-                            A EMPRESA CERTA PARA VOCÊ!
+                            A EMPRESA 
                         </h3>
                         
                         <p class="info-one-text">
@@ -57,12 +57,12 @@
 
             <!-- info two area-->
             <div class="info-one-area">
-                <div class="container" id="container-camp">
+                <div class="container col-md-12" id="container-camp">
                 <div class="row">
                     
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="col-quem-somos">
                         <h3 class="info-one-title">
-                            A EMPRESA CERTA PARA VOCÊ!
+                            A EMPRESA 
                         </h3>
                         
                         <p class="info-one-text">
@@ -73,8 +73,8 @@
                         
                     </div>
 
-                    <div class="col-md-6">
-                        <img src="../img/empresas-01.png" alt="Imagem" class="info-one-img img-fluid">
+                    <div class="col-md-6" id="col-quem-somos">
+                        <img src="../img/empresas-01.png" alt="Imagem" class="img-fluid" id="img-quem-somos">
                     </div>
 
                 </div>
@@ -87,15 +87,15 @@
 
             <!-- info three area-->
             <div class="info-one-area">
-                <div class="container" id="container-camp">
+                <div class="container col-md-12" id="container-camp">
                 <div class="row">
                     
                     <div class="col-md-6">
-                        <img src="../img/empresas-01.png" alt="Imagem" class="info-one-img img-fluid">
+                        <img src="../img/empresas-01.png" alt="Imagem" class="img-fluid" id="img-quem-somos">
                     </div>
                     <div class="col-md-6">
                         <h3 class="info-one-title">
-                            A EMPRESA CERTA PARA VOCÊ!
+                            A EMPRESA 
                         </h3>
                         
                         <p class="info-one-text">

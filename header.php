@@ -22,14 +22,38 @@
             </button>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" id="home-menu">Menu</a>
-                    <a class="nav-item nav-link" id="about-menu">About</a>
-                    <a class="nav-item nav-link" id="services-menu">Servicos</a>
-                    <a class="nav-item nav-link" id="team-menu">Team</a>
-                    <a class="nav-item nav-link" id="portfolio-menu">Portifolio</a>
-                    <a class="nav-item nav-link" id="contact-menu">Contato</a>
-                </div>
+                
+            
+                    <nav class="menu">
+                        <ul>
+                            <li><a class="nav-item nav-link" <?php $href = $pagina == "index" ? "href='#'" : "href='../index.php'"; echo $href;  ?> >INÍCIO</a></li>
+
+                            <li><a class="nav-item nav-link" href="#">EMPRESA <i class="fas fa-angle-down"></i> </a>
+                                <ul>
+                                    <li><a class="nav-item nav-link" <?php $href = $pagina == "index" ? "href='empresa/quem-somos.php'" : "href='../empresa/quem-somos.php'"; echo $href;  ?> >QUEM SOMOS</a></li>
+                                    <li><a class="nav-item nav-link" <?php $href = $pagina == "index" ? "href='empresa/cobertura.php'" : "href='../empresa/cobertura.php'"; echo $href;  ?> >COBERTURA</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a class="nav-item nav-link" href="#">SERVIÇOS <i class="fas fa-angle-down"></i> </a>
+                                <ul>
+                                    <li><a class="nav-item nav-link" <?php $href = $pagina == "index" ? "href='servicos/intennet.php'" : "href='../servicos/internet.php'"; echo $href;  ?> >INTERNET</a></li>
+                                    <li><a class="nav-item nav-link" <?php $href = $pagina == "index" ? "href='servicos/seguranca.php'" : "href='../servicos/seguranca.php'"; echo $href;  ?> >SEGURANÇA</a></li>                                   
+                                </ul>
+                            </li>
+
+                            <li><a class="nav-item nav-link" href="#">CONTATO <i class="fas fa-angle-down"></i> </a>
+                                <ul>                                    
+                                    <li><a class="nav-item nav-link" <?php $href = $pagina == "index" ? "href='contato/fale-conosco.php'" : "href='../contato/fale-conosco.php'"; echo $href;  ?> >FALE CONOSCO</a></li>
+                                    <li><a class="nav-item nav-link" <?php $href = $pagina == "index" ? "href='contato/duvidas-frequentes.php'" : "href='../contato/duvidas-frequentes.php'"; echo $href;  ?>>DÚVIDAS FREQUENTES</a></li>                                    
+                                </ul>
+                        
+                            </li>
+                        </ul>
+                    </nav>
+
+
+
             </div>
 
         </nav>
