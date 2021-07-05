@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <?php $pagina = "index"; include('head.php'); ?>
+    <?php $pagina = "index"; include('layout/head.php'); ?>
     <title>Web Rural</title>
 </head>
 
 <body>
 
-    <?php include('header.php') ?>
+    <?php include('layout/header.php') ?>
 
 
     <!--conteudo -->
@@ -30,7 +30,7 @@
                         <img src="img/1.jpg" class="d-block w-100" alt="Web Rural">
                         <!--textos dos slides -->
                         <div class="carousel-caption d-none d-md-block">
-                            <p>WEB RURAL</p>
+                            <p>WEB RURAL - TELECOM E SEGURANÇA</p>
                             <h2>LEVANDO CONEXÃO ATÉ A SUA CASA!</h2>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                         <img src="img/2.jpg" class="d-block w-100" alt="Web Rural">
                         <!--textos dos slides -->
                         <div class="carousel-caption d-none d-md-block">
-                            <p>WEB RURAL</p>
+                            <p>WEB RURAL - TELECOM E SEGURANÇA</p>
                             <h2>A COBERTURA QUE MAIS CRESCE!</h2>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                         <img src="img/3.png" class="d-block w-100" alt="Web Rural">
                         <!--textos dos slides -->
                         <div class="carousel-caption d-none d-md-block">
-                            <p>WEB RURAL</p>
+                            <p>WEB RURAL - TELECOM E SEGURANÇA</p>
                             <h2>PARA TODO TIPO DE CLIENTE!</h2>
                         </div>
                     </div>
@@ -211,10 +211,13 @@
                 <div class="container">
                 <div class="row">
                     <div class="col-12">
+                        
+                        <a href="contato/fale-conosco.php">
                         <i class="far fa-envelope"> </i>
                         <h3 class="fale-conosco-orcamento">  FALE CONOSCO, E SOLICITE UM ORÇAMENTO</h3>
                         <p>Envie uma mensagem, tire suas dúvidas ou mande solicitão de orçamento para o Grupo Web Rural.</p>
-               
+                        </a>
+
                     </div>
                 </div>
 
@@ -226,7 +229,7 @@
 
     </div>
 
-    <?php include('footer.php') ?>
+    <?php include('layout/footer.php') ?>
 
 </body>
 

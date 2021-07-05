@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <?php $pagina = "duvidas-frequentes"; include('../head.php'); ?>
-    <title>Web Rural</title>
+    <?php $pagina = "duvidas-frequentes"; include('../layout/head.php'); ?>
+    <title>Dúvidas Frequentes</title>
 </head>
 
 <body>
 
-    <?php include('../header.php') ?>
+    <?php include('../layout/header.php') ?>
 
 
     <!--conteudo -->
@@ -123,7 +123,7 @@
 
     </div>
 
-<?php include('../footer.php') ?>
+<?php include('../layout/footer.php') ?>
 
 <script>
 

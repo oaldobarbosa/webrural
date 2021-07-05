@@ -11,7 +11,10 @@ if ($pagina == "index") {
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <script src="../js/scripts.js"></script>
   ';
-  # code...
+
+  echo '
+    <link rel="stylesheet" href="../css/' . $pagina . '.css">
+  ';
 }
 
 

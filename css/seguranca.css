@@ -1,0 +1,26 @@
+.title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #FFCD00;
+    margin-bottom: 25px;
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+#btn{
+    border: 3px solid #141540;
+    border-radius: 25px;
+
+    color: #141540;
+
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#btn:hover{
+    background-color: #FFCD00;
+}

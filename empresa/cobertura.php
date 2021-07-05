@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <?php $pagina = "cobertura"; include('../head.php'); ?>
-    <title>Web Rural</title>
+    <?php $pagina = "cobertura"; include('../layout/head.php'); ?>
+    <title>Cobertura</title>
 </head>
 
 <body>
 
-    <?php include('../header.php') ?>
+    <?php include('../layout/header.php') ?>
 
 
     <!--conteudo -->
@@ -27,7 +27,7 @@
         </div>
 
         <!-- mapa cobertura -->
-        <div class="box-mapa" id="box-mapa">
+        <div class="box-mapa" id="cobertura-area">
 
             <div class="container col-md-12" id="container-mapa">
                 <div class="row"> 
@@ -36,17 +36,25 @@
                     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LFVlfgJ7c07pZiCi3ZeY8hUhrVqfzy4G" ></iframe>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="box-texto">
 
-                        <h3 class="info-one-title">
-                            A EMPRESA CERTA PARA VOCÊ!
+                        <h3 class="cobertura-title">
+                            COBERTURA REGIONAL
                         </h3>
                         
-                        <p class="info-one-text">
-                            Confiança, qualidade, gestão eficiente, 
-                            tradição, estrutura sólida, credibilidade 
-                            e transparência!
+                        <p class="cobertura-area">
+                        Uma cobertura cada vez maior e melhor para você.
+                        Estamos expandindo nossa cobertura cada vez mais, 
+                        para melhor atender nossos clientes.
                         </p>
+
+                        
+
+                        <p><i class="fas fa-map-marker-alt"></i> Igaporã - BA (SEDE)</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Riacho de Santana - BA</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Matina - BA</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Caetité - BA</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Tanque Novo - BA</p>
 
                     </div>
 
@@ -60,7 +68,7 @@
 
     </div>
 
-<?php include('../footer.php') ?>
+<?php include('../layout/footer.php') ?>
 
 </body>
 

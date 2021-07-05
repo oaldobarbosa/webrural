@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <?php $pagina = "quem-somos"; include('../head.php'); ?>
+    <?php $pagina = "quem-somos"; include('../layout/head.php'); ?>
     <title>Quem Somos</title>
 </head>
 
 <body>
 
-    <?php include('../header.php') ?>
+    <?php include('../layout/header.php') ?>
 
 
     <!--conteudo -->
@@ -30,21 +30,24 @@
 
             <!-- info one area-->
             <div class="info-one-area">
-                <div class="container col-md-12" id="container-camp">
+                <div class="container">
                 <div class="row">
                     
                     <div class="col-md-6" id="col-quem-somos">
                         <img src="../img/empresas-01.png" alt="Imagem" class="img-fluid" id="img-quem-somos"   >
                     </div>
                     <div class="col-md-6" id="col-quem-somos">
-                        <h3 class="info-one-title">
-                            A EMPRESA 
+                        <h3 class="title">
+                            A EMPRESA CERTA PARA VOCÊ!
                         </h3>
                         
-                        <p class="info-one-text">
-                            Confiança, qualidade, gestão eficiente, 
-                            tradição, estrutura sólida, credibilidade 
-                            e transparência!
+                        <p class="text">
+                            Selecione o plano que mais combina com você. 
+                            Aumente ou diminua a qualquer momento.
+                            E desfrute da melhor Internet da  Região.
+                            Selecione o plano que mais combina com você. 
+                            Aumente ou diminua a qualquer momento.
+                            E desfrute da melhor Internet da  Região.
                         </p>
                         
                     </div>
@@ -56,24 +59,27 @@
 
 
             <!-- info two area-->
-            <div class="info-one-area">
-                <div class="container col-md-12" id="container-camp">
-                <div class="row">
+            <div class="info-one-area" style="background-color: white;">
+                <div class="container">
+                <div class="row" id="pai">
                     
-                    <div class="col-md-6" id="col-quem-somos">
-                        <h3 class="info-one-title">
-                            A EMPRESA 
+                    <div class="col-md-6" id="col-quem-somos" contagem="2">
+                        <h3 class="title">
+                            PROFISSIONAIS EXPERIENTES
                         </h3>
                         
-                        <p class="info-one-text">
-                            Confiança, qualidade, gestão eficiente, 
-                            tradição, estrutura sólida, credibilidade 
-                            e transparência!
+                        <p class="text">
+                            Selecione o plano que mais combina com você. 
+                            Aumente ou diminua a qualquer momento.
+                            E desfrute da melhor Internet da  Região.
+                            Selecione o plano que mais combina com você. 
+                            Aumente ou diminua a qualquer momento.
+                            E desfrute da melhor Internet da  Região.
                         </p>
                         
                     </div>
 
-                    <div class="col-md-6" id="col-quem-somos">
+                    <div class="col-md-6" id="col-quem-somos" contagem="1">
                         <img src="../img/empresas-01.png" alt="Imagem" class="img-fluid" id="img-quem-somos">
                     </div>
 
@@ -87,21 +93,24 @@
 
             <!-- info three area-->
             <div class="info-one-area">
-                <div class="container col-md-12" id="container-camp">
+                <div class="container">
                 <div class="row">
                     
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="col-quem-somos">
                         <img src="../img/empresas-01.png" alt="Imagem" class="img-fluid" id="img-quem-somos">
                     </div>
-                    <div class="col-md-6">
-                        <h3 class="info-one-title">
-                            A EMPRESA 
+                    <div class="col-md-6" id="col-quem-somos">
+                        <h3 class="title">
+                            ESTRUTURA SÓLIDA E SEGURA
                         </h3>
                         
-                        <p class="info-one-text">
-                            Confiança, qualidade, gestão eficiente, 
-                            tradição, estrutura sólida, credibilidade 
-                            e transparência!
+                        <p class="text">
+                            Selecione o plano que mais combina com você. 
+                            Aumente ou diminua a qualquer momento.
+                            E desfrute da melhor Internet da  Região.
+                            Selecione o plano que mais combina com você. 
+                            Aumente ou diminua a qualquer momento.
+                            E desfrute da melhor Internet da  Região.
                         </p>
                         
                     </div>
@@ -136,7 +145,22 @@
 
     </div>
 
-<?php include('../footer.php') ?>
+<script>
+
+    if(window.screen.availWidth < 750 ){
+
+        var novosElementos = $('#pai div').get().sort(function (a, b) {
+        return a.getAttribute('contagem') - b.getAttribute('contagem')
+        }).map(function(el){
+            return $(el).clone(true)[0];
+        });
+        $('#pai').html(novosElementos).clone(true, true);
+
+    }
+
+</script>
+
+<?php include('../layout/footer.php') ?>
 
 </body>
 

@@ -1,0 +1,15 @@
+#box-texto{
+    padding: 40px;
+}
+
+.cobertura-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #FFCD00;
+    margin-bottom: 25px;
+}
+
+#cobertura-area p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}

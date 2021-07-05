@@ -1,0 +1,15 @@
+.fale-conosco-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #FFCD00;
+    margin-bottom: 25px;
+}
+
+.fale-conosco-area p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+a{
+    color: inherit;
+}
