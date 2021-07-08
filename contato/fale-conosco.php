@@ -39,8 +39,9 @@
                             FALE CONOSCO PELOS NOSSOS CANAIS DE ATENDIMENTO
                         </h3>                      
                         
-                            <p><i class="fab fa-whatsapp"></i> (77) 991082394 </p>
-                            <a href="https:www.instagram.com/oaldobarbosa"> <p><i class="fab fa-instagram"></i> oaldobarbosa</p></a> 
+                            <p><i class="fab fa-whatsapp"></i> (77) 99150-7327 </p>
+                            <p><i class="fas fa-phone"></i> (77) 99150-7327 </p>                            
+                            <a href="https:www.instagram.com/webrural_net"> <p><i class="fab fa-instagram"></i> webrural_net</p></a> 
                             <p><i class="far fa-envelope"></i> telex@gmail.com</p>
                             
                         

@@ -27,9 +27,9 @@
                 <div class="carousel-inner">
                     <!--item 1 -->
                     <div class="carousel-item active">
-                        <img src="img/1.jpg" class="d-block w-100" alt="Web Rural">
+                        <img src="img/1.jpg" class="d-block w-100" id="imagem1" alt="Web Rural">
                         <!--textos dos slides -->
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <p>WEB RURAL - TELECOM E SEGURANÇA</p>
                             <h2>LEVANDO CONEXÃO ATÉ A SUA CASA!</h2>
                         </div>
@@ -37,9 +37,9 @@
 
                     <!--item 2 -->
                     <div class="carousel-item ">
-                        <img src="img/2.jpg" class="d-block w-100" alt="Web Rural">
+                        <img src="img/2.jpg" class="d-block w-100" id="imagem2" alt="Web Rural">
                         <!--textos dos slides -->
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <p>WEB RURAL - TELECOM E SEGURANÇA</p>
                             <h2>A COBERTURA QUE MAIS CRESCE!</h2>
                         </div>
@@ -47,9 +47,9 @@
 
                     <!--item 3 -->
                     <div class="carousel-item ">
-                        <img src="img/3.png" class="d-block w-100" alt="Web Rural">
+                        <img src="img/3.png" class="d-block w-100" id="imagem3" alt="Web Rural">
                         <!--textos dos slides -->
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <p>WEB RURAL - TELECOM E SEGURANÇA</p>
                             <h2>PARA TODO TIPO DE CLIENTE!</h2>
                         </div>
@@ -113,9 +113,9 @@
             <!-- servico one index -->
             <div class="servico-one-index">
                 <div class="container">
-                <div class="row">
+                <div class="row" id="pai">
 
-                    <div class="col-md-6">
+                    <div class="col-md-6" contagem="2">
                         <h3 class="service-one-title">
                             INTERNET RESIDENCIAL E RURAL
                         </h3>
@@ -132,7 +132,7 @@
                         
                     </div>
                     
-                    <div class="col-md-6">
+                    <div class="col-md-6" contagem="1">
                         <img src="img/internet-01.jpg" alt="Imagem" class="info-one-img img-fluid">
                     </div>
                     
@@ -214,8 +214,8 @@
                         
                         <a href="contato/fale-conosco.php">
                         <i class="far fa-envelope"> </i>
-                        <h3 class="fale-conosco-orcamento">  FALE CONOSCO, E SOLICITE UM ORÇAMENTO</h3>
-                        <p>Envie uma mensagem, tire suas dúvidas ou mande solicitão de orçamento para o Grupo Web Rural.</p>
+                        <h3 class="fale-conosco-orcamento" id="fale-conosco-orcamento">  FALE CONOSCO, E SOLICITE UM ORÇAMENTO</h3>
+                        <p id="p-fale-conosco" >Envie uma mensagem, tire suas dúvidas ou mande solicitão de orçamento para o Grupo Web Rural.</p>
                         </a>
 
                     </div>
@@ -230,6 +230,30 @@
     </div>
 
     <?php include('layout/footer.php') ?>
+
+
+    <script>
+
+    if(window.screen.availWidth < 750 ){
+
+        $('#imagem1').attr('src','img/mobile1.jpg');
+        $('#imagem2').attr('src','img/mobile2.jpg');
+        $('#imagem3').attr('src','img/mobile3.png');
+
+        var novosElementos = $('#pai div').get().sort(function (a, b) {
+        return a.getAttribute('contagem') - b.getAttribute('contagem')
+        }).map(function(el){
+            return $(el).clone(true)[0];
+        });
+        $('#pai').html(novosElementos).clone(true, true);
+
+        document.getElementById("fale-conosco-orcamento").style.fontSize="28px";
+        
+        
+
+    }
+
+</script>
 
 </body>
 

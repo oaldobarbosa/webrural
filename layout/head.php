@@ -21,7 +21,7 @@ if ($pagina == "index") {
 
 ?>
 
-
+<link rel="shortcut icon" href="../favicon.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -44,8 +44,8 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
 <!-- font awsame -->
 <script src="https://kit.fontawesome.com/b4a99a93aa.js" crossorigin="anonymous"></script>
 
-<!-- progressbar -->
-<script src="js/progressbar.min.js"></script>
+<!-- progressbar
+<script src="js/progressbar.min.js"></script> -->
 
 <!-- parallax -->
 <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
@@ -53,3 +53,6 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
 <!-- fonte google -->
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">

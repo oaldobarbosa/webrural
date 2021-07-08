@@ -1,7 +1,7 @@
 <header>
     <div class="container" id="nav-container">
 
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
 
             <a href="#" class="navbar-brand">
 

@@ -281,8 +281,8 @@ header, .navbar{
 	margin-bottom: 25px;
 }
 #btn-service-two{
-	position: absolute;
-	right: 0;
+	/*position: absolute;
+	right: 0;*/
 	background-color: #FFCD00;
 	color: white;
 	font-size: 20px;
@@ -320,20 +320,21 @@ header, .navbar{
 
 .fale-conosco-orcamento i{
 	color: white;
-	font-size: 80px;
+	font-size: 4rem;
 	float: left;
 	padding-right: 10px;
 }
 
 .fale-conosco-orcamento h3{
-	margin-top: 5px;
+	margin-top: 1px;
 	color: white;
-	font-size: 45px;
+	font-size: 3rem;
 	font-family: 'Oswald', sans-serif;
 }
 .fale-conosco-orcamento p{
 	font-size: 15px;
 	color: white;
+	text-align: justify;
 }
 
 
@@ -452,4 +453,32 @@ header, .navbar{
 .desenvolvedor{
 	font-size: 15px;
 	margin-top: -5px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 450px) {
+
+
+
+	/*slider*/
+	#mainSlider .carousel-inner, #mainSlider .carousel-item{
+		height: auto;
+	}
+
+	#mainSlider .carousel-caption{
+		top: 20%;
+		
+	}
+
+	#mainSlider .carousel-caption h2{
+		font-size: 60px;
+		
+	}
+
+	#mainSlider .carousel-caption p{
+		font-size: 25px ;
+		
+	}
+	
 }
