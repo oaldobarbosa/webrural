@@ -41,7 +41,7 @@
                         
                             <p><i class="fab fa-whatsapp"></i> (77) 99150-7327 </p>
                             <p><i class="fas fa-phone"></i> (77) 99150-7327 </p>                            
-                            <a href="https:www.instagram.com/webrural_net"> <p><i class="fab fa-instagram"></i> webrural_net</p></a> 
+                            <a href="https:www.instagram.com/webrural_net" style="color: inherit;"> <p><i class="fab fa-instagram"></i> webrural_net</p></a> 
                             <p><i class="far fa-envelope"></i> telex@gmail.com</p>
                             
                         
