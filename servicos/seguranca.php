@@ -65,7 +65,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <a href="contato/fale-conosco.php">
+                            <a href="../contato/fale-conosco.php">
                             <i class="far fa-envelope"> </i>
                             <h3 class="fale-conosco-orcamento">  FALE CONOSCO, E SOLICITE UM ORÇAMENTO</h3>
                             <p>Envie uma mensagem, tire suas dúvidas ou mande solicitão de orçamento para o Grupo Web Rural.</p>
