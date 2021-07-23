@@ -10,9 +10,7 @@
 
     <?php include('layout/header.php') ?>
 
-
     <!--conteudo -->
-
     <div class="content">
 
         <div class="container-fluid" id="container-fluid">
@@ -99,47 +97,42 @@
             <!-- nossos serviços -->
             <div class="nossos-servicos-index">
                 <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="nossos-servicos-title">NOSSOS SERVIÇOS:</h3>
-
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="nossos-servicos-title">NOSSOS SERVIÇOS:</h3>
+                        </div>
                     </div>
-                </div>
-
-                </div>
-                    
+                </div>                 
             </div>
 
             <!-- servico one index -->
             <div class="servico-one-index">
                 <div class="container">
-                <div class="row" id="pai">
+                    <div class="row" id="pai">
+                        <div class="col-md-6" contagem="2">
+                            <h3 class="service-one-title">
+                                INTERNET RESIDENCIAL E RURAL
+                            </h3>
+                            
+                            <p class="service-one-text">
+                            Com análise precisa e anos de experiência, oferecemos serviços de segurança totalmente customizados, 
+                            desenvolvidos sob medida para indústrias de diferentes segmentos, condomínios ou outras instituições,
+                            que necessitem terceirizar serviços de segurança com qualidade e eficiência.
+                            </p>
 
-                    <div class="col-md-6" contagem="2">
-                        <h3 class="service-one-title">
-                            INTERNET RESIDENCIAL E RURAL
-                        </h3>
+                            <p class="camp-btn">
+                                <a href="servicos/internet.php">                    
+                                    <button type="button" id="btn-service-one" class="btn">Saiba Mais</button>
+                                </a>
+                            </p>                                              
+                            
+                        </div>
                         
-                        <p class="service-one-text">
-                        Com análise precisa e anos de experiência, oferecemos serviços de segurança totalmente customizados, 
-                        desenvolvidos sob medida para indústrias de diferentes segmentos, condomínios ou outras instituições,
-                        que necessitem terceirizar serviços de segurança com qualidade e eficiência.
-                        </p>
-
-                        <a href="servicos/internet.php">
-                            <button type="button" id="btn-service-one" class="btn">Saiba Mais</button>
-                        </a>
-                        
+                        <div class="col-md-6" contagem="1">
+                            <img src="img/internet-01.jpg" alt="Imagem" class="info-one-img img-fluid">
+                        </div>                     
                     </div>
-                    
-                    <div class="col-md-6" contagem="1">
-                        <img src="img/internet-01.jpg" alt="Imagem" class="info-one-img img-fluid">
-                    </div>
-                    
-                </div>
-
-                </div>
-                    
+                </div>                  
             </div>
 
             <!-- servico two index -->
@@ -161,9 +154,11 @@
                         que necessitem terceirizar serviços de segurança com qualidade e eficiência.
                         </p>
 
-                        <a href="servicos/seguranca.php">
-                            <button type="button" id="btn-service-two" class="btn">Saiba Mais</button>
-                        </a>
+                        <p class="camp-btn">
+                            <a href="servicos/seguranca.php">
+                                <button type="button" id="btn-service-two" class="btn">Saiba Mais</button>
+                            </a>
+                        </p>
                                           
                     </div>
                 </div>

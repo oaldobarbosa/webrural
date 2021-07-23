@@ -10,12 +10,10 @@
 
     <?php include('../layout/header.php') ?>
 
-
     <!--conteudo -->
-
     <div class="content">
 
-        <!-- cobertura -->
+        <!-- title -->
         <div class="quem-somos-index">
             <div class="container" id="container-title">
                 <div class="row">

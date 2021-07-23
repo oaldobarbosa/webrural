@@ -480,5 +480,44 @@ header, .navbar{
 		font-size: 25px ;
 		
 	}
+
+	.nossos-servicos-title{
+		font-family: 'Oswald', sans-serif;
+		font-size: 40px;
+		color: #FFCD00;
+	}
+
+	/* row */
+.row{	
+	margin: 0;
+}
+
+.container{
+	padding: 25px 0;
+}
+
+	.info-one-title{
+		margin-top: 25px;
+		font-size: 40px;
+	}
+
+	.service-one-title, .service-two-title{
+		font-size: 38px;
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
+
+	.title, .fale-conosco-title{
+		margin-top: 25px;
+	}
+
+	.nossos-valores-text{		
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.camp-btn{
+		text-align: center;
+	}
 	
 }

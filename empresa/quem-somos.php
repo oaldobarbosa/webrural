@@ -10,7 +10,6 @@
 
     <?php include('../layout/header.php') ?>
 
-
     <!--conteudo -->
 
     <div class="content">
@@ -31,30 +30,28 @@
             <!-- info one area-->
             <div class="info-one-area">
                 <div class="container">
-                <div class="row">
-                    
-                    <div class="col-md-6" id="col-quem-somos">
-                        <img src="../img/empresas-01.png" alt="Imagem" class="img-fluid" id="img-quem-somos"   >
-                    </div>
-                    <div class="col-md-6" id="col-quem-somos">
-                        <h3 class="title">
-                            A EMPRESA CERTA PARA VOCÊ!
-                        </h3>
+                    <div class="row">
                         
-                        <p class="text">
-                            Selecione o plano que mais combina com você. 
-                            Aumente ou diminua a qualquer momento.
-                            E desfrute da melhor Internet da  Região.
-                            Selecione o plano que mais combina com você. 
-                            Aumente ou diminua a qualquer momento.
-                            E desfrute da melhor Internet da  Região.
-                        </p>
-                        
+                        <div class="col-md-6" id="col-quem-somos">
+                            <img src="../img/empresas-01.png" alt="Imagem" class="img-fluid" id="img-quem-somos"   >
+                        </div>
+                        <div class="col-md-6" id="col-quem-somos">
+                            <h3 class="title">
+                                A EMPRESA CERTA PARA VOCÊ!
+                            </h3>
+                            
+                            <p class="text">
+                                Selecione o plano que mais combina com você. 
+                                Aumente ou diminua a qualquer momento.
+                                E desfrute da melhor Internet da  Região.
+                                Selecione o plano que mais combina com você. 
+                                Aumente ou diminua a qualquer momento.
+                                E desfrute da melhor Internet da  Região.
+                            </p>
+                            
+                        </div>
                     </div>
-                </div>
-
-                </div>
-                    
+                </div>              
             </div>
 
 

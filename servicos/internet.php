@@ -10,9 +10,7 @@
 
     <?php include('../layout/header.php') ?>
 
-
     <!--conteudo -->
-
     <div class="content">
         <div class="container-fluid" id="container-fluid">
 
@@ -46,10 +44,6 @@
                                 Aumente ou diminua a qualquer momento.
                                 E desfrute da melhor Internet da  Região.
                             </p>
-
-                            <button class="btn" id="btn">
-                                Veja Planos
-                            </button>
                             
                         </div>
                     </div>
@@ -228,8 +222,6 @@
 <?php include('../layout/footer.php') ?>
 
 <script>
-
-
     $('.filter-btn').on('click', function(){
 
         let type = $(this).attr('id');
@@ -240,7 +232,6 @@
 
         if(type == 'sede-btn'){
             eachBoxes('sede', boxes);
-
         } else if(type = 'rural-btn'){
             eachBoxes('rural', boxes);
         } else {
@@ -250,33 +241,21 @@
 
     function eachBoxes(type, boxes) {
         if (type == 'all') {
-            $(boxes).fadeIn();
-
+            $(boxes).fadeIn()
         } else {
-
             $(boxes).each(function(){
-
                 if (!$(this).hasClass(type)) {
-
                     $(this).hide(); 
-
                 } else {
-                    $(this).show();
-                    
+                    $(this).show();                  
                 }
-
-            });
-            
-        }
-        
+            });           
+        }       
     }
 
     if(window.screen.availWidth < 750 ){
-
         document.getElementById("fale-conosco-orcamento").style.fontSize="28px";
     }
-
-
 </script>
 
 </body>

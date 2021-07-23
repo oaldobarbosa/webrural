@@ -24,3 +24,83 @@
 #btn:hover{
     background-color: #FFCD00;
 }
+
+
+
+#teste-card{
+    border-radius: 25px;
+}
+
+/**********************************************/
+
+#card{
+    
+    border-radius: 25px;
+    border: 1px solid;
+    background-color: transparent;
+    border: transparent;
+    padding: 0;
+}
+
+#card-img{
+    padding: 10px;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.list-group{
+    
+    border-radius: 25px;
+    border: 2px solid #828282;
+    padding: 0;
+}
+
+
+
+
+#list-group-item-2{
+    border-top: 2px solid #828282;
+    background-color: transparent;
+}
+#list-group-item-2 p{
+    
+
+}
+
+#list-group-item-2 h4{
+    font-size: 15px;
+}
+
+.asterisco{
+    margin: 20px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+/*****************************************************/
+/*********************MODAL************************/
+
+.modal-body{
+    
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.modal-body img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*****************************************************/
+
+
+@media (max-width: 450px) {
+    #kit-card{
+        background-color: #f6f6f5; 
+        padding: 20px;
+    }
+
+    
+}

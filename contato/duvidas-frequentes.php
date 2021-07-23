@@ -15,7 +15,7 @@
 
     <div class="content">
 
-        <!-- cobertura -->
+        <!-- title -->
         <div class="quem-somos-index">
             <div class="container" id="container-title">
                 <div class="row">
@@ -43,7 +43,8 @@
                             <div class="panel-heading panel-collapsed">+ Minha Internet Caiu, o que Fazer?</div>
                             
                             <div class="panel-body">
-                                <p>Verifique a energina, reinicie o roteador, e se caso não der certo, se vira... </p>                 
+                                <p>Verifique a energina, reinicie o roteador, e se caso não der certo, entre em contato conosco por 
+                                    um dos nossoas canais de antendimento <a href="#">aqui</a>. </p>                 
                                                                 
                             </div>                            
                         </div>
