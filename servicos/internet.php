@@ -222,6 +222,7 @@
 <?php include('../layout/footer.php') ?>
 
 <script>
+    
     $('.filter-btn').on('click', function(){
 
         let type = $(this).attr('id');
@@ -253,9 +254,6 @@
         }       
     }
 
-    if(window.screen.availWidth < 750 ){
-        document.getElementById("fale-conosco-orcamento").style.fontSize="28px";
-    }
 </script>
 
 </body>

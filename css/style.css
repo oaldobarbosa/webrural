@@ -459,6 +459,11 @@ header, .navbar{
 /* RESPONSIVE */
 @media (max-width: 450px) {
 
+	
+	#fale-conosco-orcamento{
+		font-size: 28px;
+	}
+
 
 
 	/*slider*/
